@@ -22,9 +22,9 @@ const ContactCard = () => {
                     <div className="hero-content text-center">
                         <div className="max-w-md">
                             <h1 className='text-3xl text-primary text-center font-bold mb-8'>Contact With <span className='text-secondary'>Me</span></h1>
-                            <input type="text" name='user_name' placeholder="Your Name" className="input input-bordered input-primary w-full my-4" />
-                            <input type="email" name='user_email' placeholder="Your Email" className="input input-bordered input-primary w-full my-4" />
-                            <textarea className="textarea textarea-primary w-full my-4" name='message' placeholder="Your Message"></textarea>
+                            <input type="text" name='user_name' placeholder="Your Name" className="input input-bordered input-primary w-full my-4" required />
+                            <input type="email" name='user_email' placeholder="Your Email" className="input input-bordered input-primary w-full my-4" required />
+                            <textarea className="textarea textarea-primary w-full my-4" name='message' placeholder="Your Message" required></textarea>
                             <input type='submit' className="btn btn-block btn-primary rounded-full mt-2" value='Send' />
                         </div>
                     </div>

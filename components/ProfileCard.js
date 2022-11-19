@@ -11,7 +11,7 @@ const ProfileCsrd = () => {
                             <div className="card-body items-center text-center">
                                 <div className="avatar">
                                     <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-                                        <img src="https://placeimg.com/192/192/people" />
+                                        <img src="https://cdn.sanity.io/images/ymxgha9c/production/31c5db0ad43be1004a2721276576fde1a887f5ad-500x499.png?w=1080&q=75&fit=clip&auto=format" />
                                     </div>
                                 </div>
                                 <h1 className='text-secondary text-2xl font-bold mt-2'>Arfin Noor Rahman</h1>
