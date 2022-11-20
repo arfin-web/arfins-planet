@@ -23,28 +23,28 @@ const Planet = () => {
                 <meta property="og:title" content="Arfin's Planet" />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div className="container mx-auto px-0 lg:px-4">
+            <div className="container mx-auto lg:px-4">
                 <Navbar />
                 <div id='home' className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
-                    <div className='order-3 lg:order-1'>
+                    <div className='mx-auto order-3 lg:order-1'>
                         <CodeCard />
                         <ResumeCard />
                     </div>
-                    <div className='order-1 lg:order-2'>
+                    <div className='mx-auto order-1 lg:order-2'>
                         <ProfileCard />
                     </div>
-                    <div className='order-2 lg:order-3'>
+                    <div className='mx-auto order-2 lg:order-3'>
                         <SkillCard />
                         <ConnectCard />
                     </div>
                 </div>
-                <div>
+                <div className='mx-auto '>
                     <Strategy />
                 </div>
-                <div id='projects'>
+                <div id='projects' className='mx-auto '>
                     <TopProject />
                 </div>
-                <div id='contact'>
+                <div id='contact' className='mx-auto '>
                     <ContactCard />
                 </div>
                 <Footer />
