@@ -10,6 +10,7 @@ import SkillCard from '../components/SkillCard'
 import Strategy from '../components/Strategy'
 import TopProject from '../components/TopProject'
 import Footer from '../components/Footer'
+import Zoom from 'react-reveal/Zoom';
 
 const Planet = () => {
     return (
@@ -27,15 +28,25 @@ const Planet = () => {
                 <Navbar />
                 <div id='home' className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
                     <div className='mx-auto order-3 lg:order-1'>
-                        <CodeCard />
-                        <ResumeCard />
+                        <Zoom delay={1000}>
+                            <CodeCard />
+                        </Zoom>
+                        <Zoom delay={1000}>
+                            <ResumeCard />
+                        </Zoom>
                     </div>
                     <div className='mx-auto order-1 lg:order-2'>
-                        <ProfileCard />
+                        <Zoom>
+                            <ProfileCard />
+                        </Zoom>
                     </div>
                     <div className='mx-auto order-2 lg:order-3'>
-                        <SkillCard />
-                        <ConnectCard />
+                        <Zoom delay={1000}>
+                            <SkillCard />
+                        </Zoom>
+                        <Zoom delay={1000}>
+                            <ConnectCard />
+                        </Zoom>
                     </div>
                 </div>
                 <div className='mx-auto '>
@@ -45,7 +56,9 @@ const Planet = () => {
                     <TopProject />
                 </div>
                 <div id='contact' className='mx-auto '>
-                    <ContactCard />
+                    <Zoom>
+                        <ContactCard />
+                    </Zoom>
                 </div>
                 <Footer />
             </div>
