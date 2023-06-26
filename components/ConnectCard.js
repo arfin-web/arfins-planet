@@ -1,9 +1,7 @@
-import React from 'react'
-
 const ConnectCard = () => {
     return (
         <>
-            <div className="card w-96 h-44 bg-base-200 shadow-xl my-8">
+            <div className="card w-80 lg:w-96 h-44 bg-base-200 shadow-xl my-8">
                 <div className="card-body items-center text-center">
                     <h2 className="card-title text-2xl text-primary font-bold mb-4">Connect With <span className='text-secondary'>Me</span></h2>
                     <div>

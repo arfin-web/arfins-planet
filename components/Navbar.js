@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
 
 const Navbar = () => {
