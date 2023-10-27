@@ -26,7 +26,7 @@ const Planet = () => {
             </Head>
             <div className="container mx-auto lg:px-4">
                 <Navbar />
-                <div id='home' className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8">
+                <div id='home' className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 place-items-center my-8">
                     <div className='mx-auto order-3 lg:order-1'>
                         <Zoom delay={1000}>
                             <CodeCard />

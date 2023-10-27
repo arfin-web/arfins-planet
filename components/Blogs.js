@@ -26,7 +26,7 @@ const Blogs = () => {
         <>
             <div className="container mx-auto px-2 lg:px-5 my-10">
                 <h1 className='text-3xl text-primary text-center font-bold mb-10'>Personal <span className='text-secondary'>Blogs</span></h1>
-                <div className="grid grid-cols-3 gap-4 place-items-center">
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 place-items-center">
                     {
                         blogs.map((blog) => (
                             <div className="card bg-base-100 hover:shadow-lg" key={blog.id}>
