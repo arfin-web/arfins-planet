@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
+import themes from '../themes'
 
 const Navbar = () => {
     useEffect(() => {
@@ -27,9 +28,7 @@ const Navbar = () => {
                             </li>
                         </ul>
                     </div>
-                    <h4 className="btn btn-ghost normal-case font-bold text-2xl lg:text-3xl text-primary">
-                        <Link href='/planet'>Arfin's<span className='text-secondary'>Planet</span></Link>
-                    </h4>
+                    <Link href='/planet' className='font-bold text-2xl lg:text-3xl text-primary'>Arfin's<span className='text-secondary'>Planet</span></Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal p-0 bg-base-200 rounded-full shadow-xl">
@@ -45,36 +44,13 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <select data-choose-theme className="select select-primary select-md rounded-full w-28">
+                    <select data-choose-theme className="select select-primary select-sm lg:select-md rounded-full w-28">
                         <option value="dark" className='text-xl' selected>Dark Mode</option>
-                        <option value="light" className='text-xl'>Light Mode</option>
-                        <option value='cupcake' className='text-xl'>Cupcake</option>
-                        <option value='bumblebee' className='text-xl'>Bumblebee</option>
-                        <option value='emerald' className='text-xl'>Emerald</option>
-                        <option value='corporate' className='text-xl'>Corporate</option>
-                        <option value='synthwave' className='text-xl'>Synthwave</option>
-                        <option value='retro' className='text-xl'>Retro</option>
-                        <option value='cyberpunk' className='text-xl'>Cyberpunk</option>
-                        <option value='valentine' className='text-xl'>Valentine</option>
-                        <option value='halloween' className='text-xl'>Halloween</option>
-                        <option value='garden' className='text-xl'>Garden</option>
-                        <option value='forest' className='text-xl'>Forest</option>
-                        <option value='aqua' className='text-xl'>Aqua</option>
-                        <option value='lofi' className='text-xl'>Lofi</option>
-                        <option value='pastel' className='text-xl'>Pastel</option>
-                        <option value='wireframe' className='text-xl'>Wireframe</option>
-                        <option value='black' className='text-xl'>Black</option>
-                        <option value='luxury' className='text-xl'>Luxury</option>
-                        <option value='dracula' className='text-xl'>Dracula</option>
-                        <option value='cmyk' className='text-xl'>Cmyk</option>
-                        <option value='autumn' className='text-xl'>Autumn</option>
-                        <option value='business' className='text-xl'>Business</option>
-                        <option value='acid' className='text-xl'>Acid</option>
-                        <option value='lemonade' className='text-xl'>Lemonade</option>
-                        <option value='emerald' className='text-xl'>Emerald</option>
-                        <option value='night' className='text-xl'>Night</option>
-                        <option value='coffee' className='text-xl'>Coffee</option>
-                        <option value='winter' className='text-xl'>Winter</option>
+                        {
+                            themes.map((theme) => (
+                                <option key={theme.id} value={theme.value} className='text-base lg:text-lg'>{theme.name}</option>
+                            ))
+                        }
                     </select>
                 </div>
             </div>

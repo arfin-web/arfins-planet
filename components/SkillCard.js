@@ -13,9 +13,9 @@ const SkillCard = () => {
                     </div>
                     <div className="grid grid-flow-col gap-4 mt-4">
                         <img src='https://www.svgrepo.com/show/355190/reactjs.svg' className='w-10' alt='reactjs' />
-                        <img src='https://www.svgrepo.com/show/369457/nextjs.svg' className='w-10' alt='nextjs' />
-                        <img src='https://www.svgrepo.com/show/303670/firebase-1-logo.svg' className='w-10' alt='firebase' />
+                        <img src='https://www.svgrepo.com/show/452093/redux.svg' className='w-10' alt='redux' />
                         <img src='https://www.svgrepo.com/show/439022/typescript.svg' className='w-10' alt='typescript' />
+                        <img src='https://www.svgrepo.com/show/378440/nextjs-fill.svg' className='w-10' alt='nextjs' />
                     </div>
                     <div className="grid grid-flow-col gap-4 mt-4">
 

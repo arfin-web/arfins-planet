@@ -5,7 +5,7 @@ const ProfileCsrd = () => {
                 <div className="camera"></div>
                 <div className="display">
                     <div className="artboard artboard-demo phone-1">
-                        <div className="card w-full bg-base-200 shadow-xl">
+                        <div className="card w-full">
                             <div className="card-body grid grid-cols-1 place-items-center">
                                 <div className="avatar mr-4">
                                     <div className="w-32 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
@@ -17,7 +17,7 @@ const ProfileCsrd = () => {
                                 <h3 className='text-md mt-2 mr-3'>
                                     Innovative Frontend Developer with a Knack for Crafting Seamless User Journeys | Transforming the Digital Landscape | Mastering the Art of Visual Brilliance
                                 </h3>
-                                <img src='https://www.svgrepo.com/show/223047/gmail.svg' className='w-10 mt-2 mr-4' alt='gmail' />
+                                <img src='https://www.svgrepo.com/show/452213/gmail.svg' className='w-10 mt-2 mr-4' alt='gmail' />
                                 <h3 className='normal-font text-base font-bold mr-4'>arfinnoorrahman12@gmail.com</h3>
                             </div>
                         </div>

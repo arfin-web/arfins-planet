@@ -23,8 +23,8 @@ export default function Home() {
               <h1 className="text-3xl lg:text-5xl font-bold mb-8">Welome You To <span className='text-primary'>Arfin's<span className='text-secondary'>Planet</span></span></h1>
             </Zoom>
             <Zoom>
-              <div className="mockup-code h-44 shadow-xl">
-                <pre className='text-success text-2xl'><code>
+              <div className="mockup-code w-80 lg:w-auto h-44 shadow-xl">
+                <pre className='text-success text-xl lg:text-2xl'><code>
                   <Typewriter
                     onInit={(typewriter) => {
                       typewriter

@@ -1,4 +1,3 @@
-import React from 'react'
 import Head from 'next/head'
 import CodeCard from '../components/CodeCard'
 import ConnectCard from '../components/ConnectCard'
@@ -11,6 +10,7 @@ import Strategy from '../components/Strategy'
 import TopProject from '../components/TopProject'
 import Footer from '../components/Footer'
 import Zoom from 'react-reveal/Zoom';
+import Blogs from '../components/Blogs'
 
 const Planet = () => {
     return (
@@ -49,13 +49,16 @@ const Planet = () => {
                         </Zoom>
                     </div>
                 </div>
-                <div className='mx-auto '>
+                <div className='mx-auto'>
                     <Strategy />
                 </div>
-                <div id='projects' className='mx-auto '>
+                <div id='projects' className='mx-auto'>
                     <TopProject />
                 </div>
-                <div id='contact' className='mx-auto '>
+                <div className='mx-auto'>
+                    <Blogs />
+                </div>
+                <div id='contact' className='mx-auto'>
                     <Zoom>
                         <ContactCard />
                     </Zoom>
