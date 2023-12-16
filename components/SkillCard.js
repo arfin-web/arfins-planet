@@ -17,9 +17,6 @@ const SkillCard = () => {
                         <img src='https://www.svgrepo.com/show/439022/typescript.svg' className='w-10' alt='typescript' />
                         <img src='https://www.svgrepo.com/show/378440/nextjs-fill.svg' className='w-10' alt='nextjs' />
                     </div>
-                    <div className="grid grid-flow-col gap-4 mt-4">
-
-                    </div>
                 </div>
             </div>
         </>

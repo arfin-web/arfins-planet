@@ -11,6 +11,7 @@ import TopProject from '../components/TopProject'
 import Footer from '../components/Footer'
 import Zoom from 'react-reveal/Zoom';
 import Blogs from '../components/Blogs'
+import AllSkills from '../components/AllSkills'
 
 const Planet = () => {
     return (
@@ -51,6 +52,9 @@ const Planet = () => {
                 </div>
                 <div className='mx-auto'>
                     <Strategy />
+                </div>
+                <div className='mx-auto'>
+                    <AllSkills />
                 </div>
                 <div id='projects' className='mx-auto'>
                     <TopProject />
