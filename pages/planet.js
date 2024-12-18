@@ -12,6 +12,7 @@ import Footer from '../components/Footer'
 import Zoom from 'react-reveal/Zoom';
 import Blogs from '../components/Blogs'
 import AllSkills from '../components/AllSkills'
+import ClientProject from '../components/ClientProject'
 
 const Planet = () => {
     return (
@@ -58,6 +59,9 @@ const Planet = () => {
                 </div>
                 <div id='projects' className='mx-auto'>
                     <TopProject />
+                </div>
+                <div id='client' className='mx-auto'>
+                    <ClientProject />
                 </div>
                 <div className='mx-auto'>
                     <Blogs />

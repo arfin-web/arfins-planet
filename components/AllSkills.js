@@ -31,21 +31,36 @@ const skills = [
     },
     {
         id: 7,
+        title: 'NodeJS',
+        icon: 'https://www.svgrepo.com/show/354119/nodejs-icon.svg'
+    },
+    {
+        id: 8,
+        title: 'ExpressJS',
+        icon: 'https://www.svgrepo.com/show/376367/express.svg'
+    },
+    {
+        id: 9,
+        title: 'MongoDB',
+        icon: 'https://www.svgrepo.com/show/331488/mongodb.svg'
+    },
+    {
+        id: 10,
         title: 'TypeScript',
         icon: 'https://www.svgrepo.com/show/349540/typescript.svg'
     },
     {
-        id: 8,
+        id: 11,
         title: 'NextJs',
         icon: 'https://www.svgrepo.com/show/521299/next-16.svg'
     },
     {
-        id: 9,
+        id: 12,
         title: 'Tailwind CSS',
         icon: 'https://www.svgrepo.com/show/354431/tailwindcss-icon.svg'
     },
     {
-        id: 10,
+        id: 13,
         title: 'Git',
         icon: 'https://www.svgrepo.com/show/509966/git.svg'
     },
